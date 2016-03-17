@@ -127,3 +127,34 @@ body {
 /**
  * App code
  */
+
+$textColor:#2c3e50;
+$bigFont: 1.2em;
+
+.container{
+    width:60%;
+    margin:auto;
+    display:block;
+    h1{
+        font-size:3em;
+    }
+}
+
+.headLine {
+    color: $textColor;
+    text-align: center;
+}
+
+.imageContainer {
+    display: inline-block;
+    width: 50%;
+
+    img{
+        // width: 80px;
+        width:100%;
+    }
+
+    p  {
+        font-size: $bigFont;
+    }
+}
